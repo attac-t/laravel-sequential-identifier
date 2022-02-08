@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ThrelsLtd\LaravelSequentialIdentifier\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelSequentialIdentifierCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-sequential-identifier';
 
     public $description = 'My command';
 

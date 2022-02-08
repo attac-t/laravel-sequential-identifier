@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "threlsltd/laravel-sequential-identifier",
+    "description": "This is my package laravel-sequential-identifier",
     "keywords": [
-        ":vendor_name",
+        "ThrelsLtd",
         "laravel",
-        ":package_slug"
+        "laravel-sequential-identifier"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/threlsltd/laravel-sequential-identifier",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Christian",
+            "email": "christian@threls.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "ThrelsLtd\\LaravelSequentialIdentifier\\": "src",
+            "ThrelsLtd\\LaravelSequentialIdentifier\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "ThrelsLtd\\LaravelSequentialIdentifier\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "ThrelsLtd\\LaravelSequentialIdentifier\\LaravelSequentialIdentifierServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSequentialIdentifier": "ThrelsLtd\\LaravelSequentialIdentifier\\Facades\\LaravelSequentialIdentifier"
             }
         }
     },
